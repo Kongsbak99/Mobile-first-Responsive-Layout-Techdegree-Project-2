@@ -1,0 +1,270 @@
+*{
+  box-sizing: border-box;
+}
+p {
+  font-family: "noto sans";
+  color: #241f1f;
+}
+h2 h3{
+  color: #241f1f;
+}
+ul, ol {
+  list-style: none outside none;
+  margin: 0;
+  padding-left: 0;
+}
+body {
+  background: #f3f3f3;
+}
+html{
+  margin: 0;
+}
+a{
+  text-decoration: none;
+  color: #241f1f;
+}
+a:hover{
+  color: blue;
+}
+.header-name{
+  color: #d013d6;
+  font-family: 'Bowlby One SC', cursive;
+  font-size: 1.5em;
+}
+.main-header{
+text-align: center;
+width: 100%;
+background: #c49887;
+border-radius: 5px;
+padding-bottom: 20px;
+}
+.main-header li{
+background: white;
+margin-bottom: 5px;
+padding: 10px;
+font-weight: bold;
+border-radius: 5px;
+}
+.primary-content{
+text-align: center;
+}
+.p1{
+  margin: 0px 10px 30px 10px;
+  font-size: 20px;
+  color: #343434;
+}
+.profile-pic{
+height: 130px;
+margin: 30px 25px 15px 25px;
+}
+
+.secondary-header{
+  font-size: 1em;
+}
+.secondary-content{
+width: 100%;
+background: white;
+padding: 10px;
+text-align: center;
+}
+.port-pic{
+  max-width: 270px;
+  margin-top: 30px;
+}
+
+
+
+.tertiary-content{
+  text-align: center;
+  margin-bottom: 70px;
+}
+.tertiary-content h2{
+font-size: 20px;
+margin-top: 70px;
+margin-bottom: 30px;
+}
+.tertiary-content li{
+  margin: 10px 0;
+
+}
+
+
+footer{
+  border-top: lightgrey solid 1px;
+  position: relative;
+  padding: 60px 0;
+}
+footer p{
+  font-size: 12px;
+  position: absolute;
+  left: 5px;
+  top: 25px;
+  font-weight: bold;
+  margin: 0;
+}
+.top{
+  font-size: 12px;
+  position: absolute;
+  right: 5px;
+  top: 25px;
+  margin: 0;
+}
+.secondary-nav{
+  display:none;
+}
+
+
+
+@media (min-width: 768px) {
+
+
+  .clearfix {
+    overflow: auto;
+  }
+
+
+  .main-nav {
+		float: right;
+    margin-right: Calc(384px - 129.3595px);
+	}
+	.main-nav li {
+		float: left;
+    font-size: 12px;
+    margin-left: 10px;
+	}
+  .main-header li{
+    background: #f3f3f3;
+  }
+  .profile-pic{
+    float: right;
+    height: 175px;
+    margin-top: 0;
+  }
+  .primary-content{
+    margin-bottom: 40px;
+    margin-top: 30px;
+    text-align: left;
+    letter-spacing: 0.8px;
+  }
+.secondary-content h2{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+  .sec1,
+  .sec3,
+  .sec5
+  {
+    float: left;
+    width: 48.5%;
+    margin: 5px;
+    text-align:center;
+  }
+  .sec2,
+  .sec4,
+  .sec6{
+   float: right;
+   width: 48.5%;
+   margin: 5px;
+   text-align: center;
+  }
+  .port-pic{
+    margin: 0px;
+    max-width: 100%;
+    height: auto;
+  }
+  .secondary-content p{
+    max-width: 70%;
+    margin-left: 15%;
+  }
+  .tertiary-content{
+    max-width: 400px;
+    margin-left: 25%;
+  }
+  .tertiary-content h2{
+    margin-bottom: 40px;
+  }
+  .top{
+    display: none;
+  }
+  .secondary-nav{
+    display: block;
+    position: absolute;
+    right: 5px;
+    top: 25px;
+    font-size: 15px;
+}
+  .secondary-nav li{
+    float: left;
+    margin-left: 15px;
+    font-weight: bold;
+  }
+  footer p{
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .secondary-nav{
+    margin-right: 10px;
+  }
+
+
+}
+
+
+
+
+@media (min-width: 1024px){
+
+  .header-name{
+    float:left;
+    margin: 25px 0 0 50px;
+    font-size: 25px;
+  }
+  .main-nav{
+    margin: 25px 50px 0 0;
+  }
+  .primary-content{
+    margin-left: 50px;
+  }
+  .primary-content p{
+    margin-left: 0;
+  }
+  .profile-pic{
+    height: 235px;
+    margin: 0 50px 0 25px;
+  }
+  .secondary-content{
+    margin-right: 30px;
+    margin-left: 30px;
+    width: auto;
+  }
+  .secondary-content h2{
+    margin-top: 45px;
+    margin-bottom: 45px;
+  }
+  .port-pic{
+    max-width: 100%;
+  }
+  .sec1,
+  .sec2,
+  .sec4,
+  .sec5{
+    float: left;
+    width: 32%;
+    margin-left: 8px;
+  }
+  .sec3,
+  .sec6{
+    float: right;
+    width: 32%;
+  }
+  .tertiary-content p{
+    margin-bottom: 30px;
+  }
+  .tertiary-content{
+    margin-left: 30%;
+  }
+
+
+
+
+}
